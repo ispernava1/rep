@@ -1,0 +1,14 @@
+public class Coronavirus{
+ private float infeccio;
+ private float mortaldat;
+ 
+ public Coronavirus() {
+    this.infeccio = 0.0;
+    this.mortaldat = 0.0;
+ }
+ Coronavirus(float x, float y)
+ {
+ infeccio=xx;
+ mortaldat=yy;
+ }
+}
