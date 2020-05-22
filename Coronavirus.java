@@ -23,15 +23,16 @@ public class Coronavirus{
      return "Infecció: " + this.infeccio + "Mortaldat: " + this.mortaldat;
  }
  
- public boolean equals() {
+ @Override
+ public boolean equals(Coronavirus c) {
      float f1 = this.infeccio;
      float f2 = this.mortaldat;
 
-     if(f1 == f2) {
+     if(f1 == c.infeccio && f2 == c.mortaldat) {
          System.out.println("Són iguals.");
      } else {
          System.out.println("No són iguals.");
-     }
+     
      
  }
 
